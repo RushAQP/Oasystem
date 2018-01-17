@@ -1,0 +1,173 @@
+/* Laptop
+   ------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1367px){
+    
+}
+
+/* Tablets en horizonal 
+   ------------------------------------------------------------------------- */
+@media (min-width: 481px) and (max-width: 768px){
+    
+}
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px){
+    div.container{
+        width: 100%;
+        padding: 0 2%;
+        margin: 0 auto;
+    }
+    section.principal{
+        padding-bottom: 0;
+    }
+    header {
+        text-align: center;
+    }
+    h1#logo {
+        float: inherit;
+        margin: 10px auto;
+    }
+    section.redessociales{
+        position: inherit;
+        margin-top: 10px;
+    }
+    ul.listaslider li a {
+        width: 90%;
+    }
+    ul.listaslider li {
+        margin-left: 30px;
+    }
+    section.kidplaying img {
+        width: 60%;
+        margin: 0 auto;
+        float: none;
+    }
+    section.kidplaying p{
+        width: 96%;
+        margin: 10px auto;
+        font-size: 15px;
+    }
+    section.destacado {
+        padding: 3em 0 9em 0;
+        top: 0;
+    }
+    p.destacado{
+        font-size: 16px;
+        padding: 0 15px;
+    }
+    p.destacado span{
+        font-size: 17px;
+    }
+    section.frasefutbol {
+        width: 100%;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    img.frase {
+        width: 88%;
+    }
+    section.jugando {
+        background: url(../img/jugandoresponsive.jpg);
+        width: 100%;
+        float: left;
+        top: 0;
+    }
+    .cn-button {
+        background: url(../img/pelotaresponsive.png);
+        width: 117px;
+        height: 113px;
+        top: -85px;
+        left: 40%;
+    }
+    .csstransforms .cn-wrapper{
+        position: absolute;
+        top: -60px;
+        left: 48%;
+        z-index: 10;
+        margin-top: -12em;
+        margin-left: -12em;     
+        width: 25em;
+        height: 27em;
+
+    }
+    .csstransforms .cn-wrapper li a{
+        font-size: 21px;
+    }
+    .csstransforms .cn-wrapper li a span {
+        font-size: 10px;
+    }
+    footer{
+        overflow: inherit;
+    }
+    /*CATEGORIAS*/
+    section.cuadrotexto{
+        height: auto;
+    }
+    .cuadrotexto .content{
+        padding: 1em;
+        width: 100%;
+    }
+    .cuadrotexto section.image{
+        width: 100%;
+    }
+    .cuadrotexto img{
+        position: inherit;
+        width: 100%;
+    }
+    .cuadrotexto.derecha {
+        text-align: left;
+    }
+    .cuadrotexto .content h3 {
+        font-size: 20px;
+    }
+
+    /*SERVICIOS*/
+    section.servicio, section.torneos{
+        width: 100%;
+        margin: 15px 0;
+    }
+    h3.titulointerior {
+        height: auto;
+        font-size: 16px;
+        padding: 0 0 0 30px;
+        background: none;
+        background-color: #4a4e59;
+    }
+    h3.titulointerior:hover{
+        padding-left: 10px;
+    }
+    ol.listapadding {
+        padding-left: 20px;
+    }
+    img.servicios{
+        width: 100%;
+    }
+    /*REQUISITOS*/
+    img.requisitos{
+        position: inherit;
+        width: 100%;
+        margin-top: 25px;
+    }
+    li.requisitos{
+        width: 100%;
+    }
+    li.requisitos:hover{
+        padding-left: 20px;
+    }
+    /*CONTACTO*/
+    p.central{
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px dotted #f10;
+        margin-bottom: 15px;
+        padding-bottom: 30px;
+    }
+    p.wiracocha, p.contacto{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section.contacto{
+        padding: 0 0 130px 0;
+    }
+}
+

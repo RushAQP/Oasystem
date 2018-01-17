@@ -1,0 +1,398 @@
+*{outline: 1px solid rgba(0,255,0,0.5);}
+
+/*cabeza numero */
+#cabeza {width: 100%;background-color: #29616f;color: white; padding: 7px 5%;position: fixed; z-index: 101; top: 0;}
+#cabeza ul{margin-bottom: 0; padding-left: 0;}
+#cabeza ul li {width: 50%; font-size: 1.2rem; display: inline-block;}
+#cabeza ul li span{font-size: 1.5rem; margin-right: 10px;}
+#cabeza ul a{color: white; text-decoration: none;}
+
+
+/*--------- Header ------------------*/
+
+header {width: 100%;  padding: 20px 5%; background-color: #77bacb; display:flex; position: fixed; z-index: 100;
+display:-webkit-flex; display:-ms-flexbox; flex-wrap:  wrap;flex-direction: row; justify-content: space-around; overflow: hidden;}
+
+div.logo{width: 20%; overflow: hidden;}
+
+div.logo img {width: 95%;  max-width: 257px; max-height:50px;min-width: 217px; min-height:42px;}
+
+.header_info {width:20%; padding-left: 0;}
+.header_info div.horarios{width: 100%;color: white;text-align: center;padding-top: 10px;}
+div.horarios ul li {list-style: none; font-size: 1.2rem; text-align:left; display:inline-block; color: #29616f}
+div.horarios ul li span { font-size: 1.3rem;margin-right:10px;color:white; padding: 10px; background-color: #29616f;
+border-radius: 40px; }
+
+div.botones {width: 60%; padding-top: 15px;}
+div.botones ul li{list-style: none; font-size: 1.5rem; text-align:left; display:inline-block; color: white; width: 16%; text-align: center;}
+
+div.botones ul li:hover {color: #29616f; transition: 0.4s ease-in-out;}
+
+#menu_responsive{width: 15%;max-width: 40px; cursor: pointer; height: 40px;    position: absolute;
+    right: 5%;
+    top: 30px;}
+#menu_responsive div{ font-size: 0.7rem; color: white; text-align: center; }
+#mb_a {width: 100%; height: 2px; background-color: white; border-radius: 20px;
+margin-bottom: 4px; transition: 0.4s ease-in-out;}
+#mb_b {width: 100%; height: 2px; background-color: white; border-radius: 20px;
+margin-bottom: 4px; transition: 0.4s ease-in-out;}
+#mb_c {width: 100%; height: 2px; background-color: white; border-radius: 20px;
+margin-bottom: 4px; transition: 0.4s ease-in-out;}
+#mb_d {width: 100%; height: 2px; background-color: white; border-radius: 20px;
+margin-bottom: 4px; transition: 0.4s ease-in-out;}
+#mb_e {width: 100%; height: 2px; background-color: white; border-radius: 20px;
+margin-bottom: 4px; transition: 0.4s ease-in-out;}
+
+
+    #menu_responsive:hover #mb_a{
+
+        width: 90%;
+        transition: 0.4s ease-in-out;
+        background-color: #29616f;
+    }
+
+    #menu_responsive:hover #mb_b{
+
+        width: 40%;
+        transition: 0.4s ease-in-out;
+        background-color: #29616f;
+    }
+
+    #menu_responsive:hover #mb_c{
+
+        width: 60%;
+        transition: 0.4s ease-in-out;
+        background-color: #29616f;
+    }
+
+    #menu_responsive:hover #mb_d{
+
+        width: 40%;
+        transition: 0.4s ease-in-out;
+        background-color: #29616f;
+    }
+
+    #menu_responsive:hover #mb_e{
+
+        width: 85%;
+        transition: 0.4s ease-in-out;
+        background-color: #29616f;
+    }
+
+/*== terminar header====*/
+
+
+/*==== inicia menu_responsive =====*/
+    section#nav_movil {position: absolute; right: -200% ;top: 0; transition: right .7s ease-in-out;
+    position: fixed;padding-top: 30px;background: url(../images/dot.png) repeat; height: 100%;width: 100%;
+    background-color: rgba(0,0,0,0.8);padding-left: 10%;padding-right: 10%;padding-top: 100px; z-index: 99999999;}
+
+    section#nav_movil div.cerrar {position: absolute;right: 30px;top: 20px; text-align: center;
+    padding: 10px;cursor: pointer; }
+
+    section#nav_movil div.cerrar span {font-size: 1.8rem;color: white;}
+
+    section#nav_movil div.empresa_redes_contacto {width: 100%;display: flex;display: -webkit-flex;
+    display: -ms-flexbox;flex-wrap: wrap;flex-direction: row; justify-content: space-around;}
+
+    section#nav_movil div.empresa_redes_contacto ul li {display: inline-block; }
+
+    section#nav_movil div.empresa_redes_contacto ul li span {display: inline-block; font-size: 1.5rem;color: white;
+    list-style: none; margin-right: 10px;}
+
+    #nav_nuevo {position: absolute;top: 0;right: 0;height: 100%;width: 100%;
+    padding: 80px 40px;background: #29616f; max-width: 470px; z-index: 454545454454545454;}
+
+    #nav_nuevo ul {margin-bottom: 20px; }
+    #nav_nuevo ul li span { font-size: 1.5rem; color: white; margin-right: 5px; }
+    #nav_nuevo ul li {list-style: none; margin-bottom: 10px;}
+    #nav_nuevo ul li a {color: white; font-size: 1.8rem;     font-family: 'Lato', sans-serif;}
+    #nav_nuevo img { width: 100%; margin-bottom: 30px; }
+/*==== termina menu_responsive =====*/
+
+/*-------------------------QUERIES-------------------------------*/
+
+@media screen and (max-width:1270px){
+    div.botones{
+        width: 100%;margin-top:20px;}
+
+
+    div.logo,.header_info{width: 50%;}
+
+
+}
+
+
+@media screen and (max-width:1200px){
+    #lista{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:1039px){
+    /*.telephone{
+        position: absolute;
+        left: 0;
+        top: 45px;
+        margin-left: 15px;
+    }*/
+    .mercaba{
+    transform: translateX(130%) translateY(-100%) ;
+    font-size: 30px;    
+    }
+    .logo-nav{
+    transform: translateX(710%) translateY(-30%);
+    }
+    .telephone{
+    transform: translateX(35%) translateY(90%);
+    margin-top: 10px;
+    }
+    .telephone span{
+    font-size: 15px;    
+    }
+    .estilos{
+        /*transform: translateX(100%) translateY(-170%) ;*/
+        float: left;
+        padding-left: 15%;
+    }
+     .caption-g h3{
+        line-height: 35px;
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+    div.botones,.header_info div.horarios {
+        display: none;
+    }
+
+    .carousel {  margin-top: 100px;}
+
+    div.logo{width: 100%;}
+
+    header {margin-top: 25px; top: 0;}
+}
+
+
+
+@media screen and (max-width:991px){
+    .block-plan ul{margin: 0;}
+    .block-plan li:nth-child(2){font-size: 25px;}
+    .servicios h4{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+    .carousel .item {height: 450px;}
+    .carousel-caption{top: 33%;}
+     .carousel-caption h3{font-size: 3.2rem;}
+    .carousel-caption {padding-top: 20px;}
+    .img-contact{display: none;}
+}
+
+
+
+@media screen and (max-width:836px){
+    .mercaba{
+    transform: translateX(90%) translateY(-100%) ;
+    font-size: 30px;    
+    }
+    .logo-nav{
+    transform: translateX(500%) translateY(-30%);
+    }
+    .telephone{
+    transform: translateX(-10%) translateY(90%);
+    margin-top: 10px;
+    }
+    .estilos{
+        padding-left: 10%; 
+    }
+}
+
+
+
+
+@media screen and (max-width:793px){
+    .estilos{
+        padding-left: 7%; 
+    }
+}
+@media screen and (max-width:767px){
+    .block-plan ul{margin: 0;}
+    .block-plan li:nth-child(2){font-size: 25px;}
+    .aviso li:nth-child(2), .aviso li:nth-child(3){
+    font-size: 28px;padding: 8px 0;}
+    
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        height:570px; 
+    }
+    .navbar-header{
+        padding: 10px 0;
+    }
+    .servicios img{
+        margin-top: 15px;
+    }
+    .servicios hr, .sistema hr, .filosofia hr, .contact hr{
+    margin-bottom: 70px;
+    }
+    .sistema{
+        padding: 80px;
+    }
+    .mercaba{
+    transform: translateY(-190%) ;
+    font-size: 15px;    
+    }
+    .logo-nav{
+    transform: translateY(-60%);
+    }
+    .telephone{
+    transform: translateX(-120%) translateY(80%);
+    margin-top: 0;
+    }
+    .telephone span{
+    font-size: 12px;    
+    }
+    .estilos{
+        /*transform: translateX(100%) translateY(-170%) ;*/
+        float: none;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .carousel .item {height: 300px;}
+    .carousel-caption h3{font-size: 2.2rem;}
+    .carousel-caption {padding-top: 20px;}
+}
+
+@media screen and (max-width:570px){
+    .caption-g{
+    margin-bottom: 100px; 
+    }
+
+    .contact p {font-size: 22px;margin-top: 20px;}
+}
+
+@media screen and (max-width: 550px){
+
+    div.nosotros_a img, div.nosotros_b img {width: 350%;}
+    #palabra{display: none;}
+    section.imagen_fija{height: 100px;}
+    .carousel .item {height: 200px;}
+    .carousel-caption{padding-top: 0;}
+    .carousel-caption h5{display: none;}
+    .carousel-caption h3{font-size: 1.5rem;}
+    .carousel-caption{top: 31%;}
+    .carousel-caption h5, .carousel-caption p{font-size: 0.8rem;}
+    .carousel-caption #ver_mas {width: 30%;margin-left: 35%; margin-top: 20px;}
+
+    }
+
+
+@media screen and (max-width:515px){
+    .servicios h2, .filosofia h2, .contact h2, .sistema h2{
+        font-size: 25px;
+    }
+    .servicios hr, .sistema hr, .filosofia hr, .contact hr{
+    margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:494px){
+    .caption-g{
+    margin-bottom: 100px; 
+    }
+    .caption-g h3{
+        line-height: 35px;
+        font-size: 25px;
+    }
+    .telephone{
+        position: absolute;
+        top: 10px;
+        margin-left: 6px;
+    }
+    .mapa{
+        background: url(../images/mapa3.png) no-repeat;
+        background-size: cover;
+    }
+    
+}
+@media screen and (max-width:465px){
+    .servicios h2, .filosofia h2, .contact h2, .sistema h2{
+        font-size:16px;
+    }
+    .sistema{
+    padding: 70px 0;
+    }
+}
+@media screen and (max-width:432px){
+    .aviso li:nth-child(4) span {
+    padding: 5px 10px;font-size: 12px;}
+    .aviso{background-position: left center; background-attachment: fixed;}
+    .images-fil{
+        display: none;
+    }
+    .flecha{
+    margin: -80px 45%;
+    position: absolute;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    }
+    
+}
+@media screen and (max-width:414px){
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        height:670px; 
+    }
+    .caption-g{
+    margin-bottom: 150px; 
+    }
+    .mercaba{
+    transform: translateY(-170%);
+    }
+    .logo-nav{
+    transform: translateY(-50%);
+    }
+    .telephone{
+    transform: translateX(-120%) translateY(70%);
+    }
+}
+@media screen and (max-width:380px){
+    .servicios h4{
+        font-size: 12px;
+    }
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        height:600px; 
+    }
+    .caption-g h3{
+        line-height: 27px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:350px){
+    .caption-g h3{
+    font-size: 20px;
+    }
+
+    div.logo img {width: 75%; }
+}
+@media screen and (max-width:330px){
+    .filosofia li:nth-child(1){
+   font-size: 15px;padding: 5px 0;} 
+    
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        height:520px; 
+    }
+    .caption-g{
+    margin-bottom: 100px; 
+    }
+}
+
+
+@media screen and (min-width:1025px){
+#menu_responsive {display: none;}
+
+#cabeza{display: none;}
+}
+

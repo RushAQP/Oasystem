@@ -1,0 +1,35 @@
+$(document).on('ready', init);
+
+function init(){
+	var ventana=$(window);
+	ventana.on('scroll', scroleo);
+	$(".futura").hide();
+	$(".nivoSlider").nivoSlider({
+		effect:"fade",
+    	boxCols: 10,                   
+    	boxRows: 4,
+    	animSpeed: 500,
+    	pauseTime: 4000
+	});
+}
+
+
+function scroleo(){
+	var nav=$("nav.navprincipal");
+	if($(this).scrollTop()>$("#logo").height()){
+		nav.addClass("fixed");
+		$(".futura").show();
+		$(".menu .item").css("width","19%"); //ANTES ERA 15%//
+		$("header nav").css("background-color","#f53700");
+		$("header nav ul li a").css("color","#fff");
+
+	}else{
+		nav.removeClass("fixed");
+		$(".futura").hide();
+		$(".menu .item").css("width","24%"); //ANTES ERA 19%//
+		$("header nav").css("background-color","transparent");
+		$("header nav ul li a").css("color","#f53700");
+		
+	}
+}
+
