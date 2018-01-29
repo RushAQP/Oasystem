@@ -3,6 +3,35 @@
     font-family: 'Lato';
 
 }
+.trayectoria_a iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/*.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+/*.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+/*.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}*/
 
 /* FLECHA SUBIR */
 
@@ -232,7 +261,7 @@ div.linea_e{width: 100%; height: 4px;background-color:#c60006; margin-bottom: 3p
 .menu_responsive:hover div.linea_e {width: 100%; transition: 0.4s ease; background-color: #0a0a0a; }
 
 
-#logotipo .logo img{width: 60%; min-width: 264px; min-height: 100px; max-width: 264px; max-height: 100px;}
+#logotipo .logo img{width: 60%; min-width: 470px;min-height: 100px; max-width: 264px; max-height: 110px;}
 #logotipo .telefonos{width: 50%;}
 #logotipo .telefonos ul li{font-weight: 800; list-style: none; margin-bottom: 5px; text-align: right; color: #001b37;font-size:18px; }
 #logotipo .telefonos ul li i{margin-left: 8px; color: #c60006;font-size: 25px;}
@@ -240,7 +269,7 @@ div.linea_e{width: 100%; height: 4px;background-color:#c60006; margin-bottom: 3p
 
 
 #menu {box-shadow: 0 5px 5px rgba(6, 6, 6, 0.69); width: 100%; background-color:#001b37 ;padding:20px 5%; font-size: 0;}
-#menu ul li{color: white; list-style: none; margin-bottom: 5px; display: inline-block; width: 16.666%; text-align: center; font-size: 1.5rem; margin-bottom: 0;}
+#menu ul li{color: white; list-style: none; margin-bottom: 5px; display: inline-block; width: 16.666%; text-align: center; font-size: 1.5rem; margin-bottom: 0; text-transform: uppercase; font-weight: 600;}
 #menu ul {margin-bottom: 0; padding: 0;}
 
 #menu ul li a:hover{color: red;}
@@ -1032,6 +1061,12 @@ div.empresa_redes li{
 }
 /* Footer */
 .datos li:nth-child(3){
+    font-weight: 500;
+    font-family: 'lato';
+    font-size: 20px;
+    margin-top: 10px;
+}
+.datos li:nth-child(5){
     font-weight: 500;
     font-family: 'lato';
     font-size: 20px;
