@@ -1,5 +1,5 @@
 * {
-   /*outline: 1px solid rgba(0,255,0,0.3);*/
+   outline: 1px solid rgba(0,255,0,0.3);
     font-family: 'Lato';
 
 }
@@ -8,30 +8,28 @@
     height: 500px;
 }
 
-/*.main-text
+
+
+.carousel-inner > .item > img {
+        min-width: 100%;
+        width: 100%;
+        max-width: 100%;
+        height:640px; 
+}
+
+.main-text 
 {
     position: absolute;
-    top: 50px;
-    width: 96.66666666666666%;
-    color: #FFF;
+    top: 210px;
+   text-align: center;
+    left: 15%;
+    width: 70%;
 }
-/*.btn-min-block
-{
-    min-width: 170px;
-    line-height: 26px;
+.main-text h2{
+    color: #fff;
+    font-family: 'Ubuntu';
+    text-shadow: 2px 2px 2px rgb(0,0,0)
 }
-.btn-clear
-{
-    color: #FFF;
-    background-color: transparent;
-    border-color: #FFF;
-    margin-right: 15px;
-}
-/*.btn-clear:hover
-{
-    color: #000;
-    background-color: #FFF;
-}*/
 
 /* FLECHA SUBIR */
 
@@ -363,7 +361,7 @@ flex-direction: row; padding-right: 40px;color: #fff;
 position: relative; display:-webkit-flex; display:-ms-flexbox; flex-wrap: wrap;
 flex-direction: row; justify-content: space-around; overflow: hidden;}
 
-.nosotros_a{background: url(../img/informatica1.jpg) ; width: 40%;text-align: center;position: relative; overflow: hidden;}
+.nosotros_a{background: url(../img/informatica5.jpg) no-repeat; width: 40%;text-align: center;position: relative; overflow: hidden; background-size: cover;}
 .nosotros_a img.niños { width: 50%;margin-top: 50px; position: relative;}
 
 .nosotros_b{width: 60%; padding: 60px 5% 60px 5%;}
