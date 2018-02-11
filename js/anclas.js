@@ -1,4 +1,4 @@
-document.ready(init);
+//document.ready(init);
 
 $(function() {
 			  $('a[href*="#"]:not([href="#"])').click(function() {
